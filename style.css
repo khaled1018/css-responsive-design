@@ -1,0 +1,75 @@
+:root {
+  font-size: 16px; /* Default browser font size */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.box {
+  width: 50%;
+  min-height: 100px;
+  background-color: lightblue;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 10px;
+}
+
+.px-text {
+  font-size: 20px;
+}
+
+.rem-text {
+  font-size: 1.5rem; /* 1.5 * 16px = 24px */
+}
+
+.em-text {
+  font-size: 1.5em; /* Relative to parent (inherited size) */
+}
+
+.vw-text {
+  font-size: 5vw; /* 5% of the viewport width */
+}
+
+.percent-box {
+  width: 80%;
+  background-color: lightgreen;
+  text-align: center;
+  padding: 10px;
+}
+
+.vh-box {
+  height: 20vh; /* 20% of the viewport height */
+  background-color: lightcoral;
+  text-align: center;
+  padding: 10px;
+}
+
+.button {
+  font-size: 1rem;
+  padding: 1em; /* Uses em for proportional padding */
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Avoid using px for width, use % instead */
+.pixel-box {
+  width: 300px; /* Fixed width, not responsive */
+  height: 100px;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+}
+
+.percentage-box {
+  width: 50%; /* Responsive alternative */
+  height: 100px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

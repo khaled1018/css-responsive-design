@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Relative Units Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>CSS Relative Units Demo</h2>
+
+    <p class="px-text">This text uses 20px.</p>
+    <p class="rem-text">This text uses 1.5rem (based on root font size).</p>
+    <div class="box">
+      <p class="em-text">This text uses 1.5em (relative to parent).</p>
+    </div>
+    <p class="vw-text">This text uses 5vw (viewport width).</p>
+
+    <div class="percent-box">This box uses 80% width.</div>
+    <div class="vh-box">This box uses 20vh height.</div>
+
+    <button class="button">Button with em-based padding</button>
+
+    <h3>Problem with px vs. Percentage</h3>
+    <div class="pixel-box">Fixed width (300px) - Not responsive</div>
+    <div class="percentage-box">Flexible width (50%) - Responsive</div>
+  </body>
+</html>
