@@ -3,9 +3,6 @@
 ## Overview
 Using relative units in CSS is essential for creating a responsive design that adapts to different screen sizes and devices. This README explains the importance of relative units and how to use them effectively.
 
-### Make it responsive, Make it responsive, Make it responsive.
-![Make it responsive](https://github.com/khaled1018/css-responsive-design/blob/main/photo_1.webp))
-
 ## Root Element and Font Size
 - The `<html>` element is the root element for all elements in a webpage.
 - By default, the font size of the HTML element is **16px** in most browsers.
